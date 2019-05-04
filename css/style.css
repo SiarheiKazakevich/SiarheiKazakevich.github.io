@@ -1,0 +1,547 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+ } 
+body {
+  line-height: 0;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ /*body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+article {
+	width: 1170px;
+	margin: 0px auto 0px auto;
+}
+
+*/
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+*/
+/*
+  ========================================
+               стили
+  ========================================
+*/
+                                    /*общие*/
+.shap{
+	
+	width: 100%;
+    height: 104px;
+}
+									
+.boxcentr{
+      position:static;
+	  text-align: center;
+	/* position: relative;
+	displey:flex;
+	justify-content:center;
+	width: 100%;*/
+	/*margin:  auto 121px auto 0px ;*/
+	
+
+	
+}									 
+									 
+.fon_coltco1{
+	position:absolute;
+	top:260px;
+	left:9.3%;
+}									 
+.fon_coltco2{
+	position:absolute;
+	top:260px;
+	right:9.3%;
+}	
+.fon_center{
+	display: inline-block;
+	position:relative;
+	/*displey:flex;
+	justify-content:center;*/
+	width:521px;
+	top:170px;
+	/*left:31%;*/
+	/*left:30%;
+	right:30%;*/
+	
+}
+.window1{
+	position:absolute;
+	top:7px;
+	left:2.8%;
+}
+.window2{
+	position:absolute;
+	top:7px;
+	right:3.1%;
+}
+.embl{
+	position:absolute;
+	top:28px;
+	left:11%;
+}
+/*.zvonok{
+	position:relative
+	top:1px;
+	displey:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+}*/
+.fon1{
+	position:relative;
+	width: 100%;
+}
+
+.truba{
+	position:absolute;
+	top:32px;
+	right:22.5%;
+	margin-right:110px;
+}
+/*.text1{
+	position:absolute;
+	top:30px;
+	left:22%;
+}*/
+.text2{
+	display:block;
+	line-height: 1;
+	position:absolute;
+	top:39px;
+	right:7.5%;
+	color:white;
+	font-size: 28px;
+	font-weight: bold;
+}
+.textK{
+	line-height: 1;
+	position:absolute;
+	top:16px;
+	left:50%;
+	 margin-left:-14.5px;
+	/*right:50.0%;*/
+	/*color:white;*/
+	font-size: 22px;
+	font-weight: bold;
+}
+.maslo{
+	position:absolute;
+     top:121px;
+     left:50%;
+	 margin-left:-99.5px;
+	/*right:42.5%;*/
+}
+.tormoz{
+	position:absolute;
+	top:423px;
+	left:50%;
+	 margin-left:-99.5px;
+}
+.filtrs{
+	position:absolute;
+	top:143px;
+	right:25%;
+}
+.glushak{
+	position:absolute;
+	top:403px;
+	left:25%;
+}
+.kuzov{
+	position:absolute;
+	top:403px;
+	right:25%;
+}
+/* слайдер глушак*/
+#carousels{
+position: absolute;
+}
+.carousel{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration{
+opacity: 1;
+}
+/* слайдер колеса*/
+#carousels1{
+position: absolute;
+}
+.carousel1{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration1{
+opacity: 1;
+}
+
+/* слайдер двс*/
+#carousels2{
+position: absolute;
+}
+.carousel2{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration2{
+opacity: 1;
+}
+
+/* слайдер тормоз*/
+#carousels3{
+position: absolute;
+}
+.carousel3{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration3{
+opacity: 1;
+}
+
+/* слайдер кузов*/
+#carousels4{
+position: absolute;
+}
+.carousel4{
+position: absolute;
+right: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration4{
+opacity: 1;
+}
+
+/* слайдер подвеска*/
+#carousels5{
+position: absolute;
+}
+.carousel5{
+position: absolute;
+right: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration5{
+opacity: 1;
+}
+
+/* слайдер фильтр*/
+#carousels6{
+position: absolute;
+}
+.carousel6{
+position: absolute;
+right: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration6{
+opacity: 1;
+}
+/* пылающая буква*/
+
+.flame {
+font-size: 22px;
+padding: 0;
+width: 0 px;
+font-weight: bold;
+background: scroll 0% 0% rgb(253, 253, 253);
+color: rgb(50, 50, 50);
+text-shadow: -1px 2px rgb(255, 255, 0),
+2px -3px 3px rgb(255, 204, 0),
+2px -5px 6px rgb(255, 153, 0),
+-3px -7px 8px rgb(255, 102, 0),
+1px -15px 30px rgb(255, 51, 0),
+3px -30px 55px rgb(255, 0, 0);
+}
+/* слайдер масло */
+#carousels7{
+position: absolute;
+}
+.carousel7{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration7{
+opacity: 1;
+}
+
+/* слайдер Главтекст */
+#carousels8{
+position: absolute;
+}
+.carousel8{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+transition: opacity 3s; /* Время появления картинки */
+}
+.demonstration8{
+opacity: 1;
+}
+/*.GLAV_Text{
+	line-height: 1;
+	position:absolute;
+	top:86px;
+	right:80.0%;*/
+	/*color:white;*/
+	/*font-size: 50px;
+	font-weight: bold;
+}*/
+/* слайдер 1*/
+/*
+.glushak{
+	position:absolute;
+	top:403px;
+	left:25%;
+}
+#slides{
+	
+    position:absolute;
+	 width:200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.slide{
+     
+	 font-size: 30px;
+     left: 0px;
+    top: 0px;
+    padding:120px 60px 40px 40px;
+     width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    box-sizing: border-box;
+	 
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing{
+	
+    opacity: 1;
+    z-index: 2;
+}
+
+.slide:nth-of-type(1){
+    background:url(../img/photo_glushak/glushak1.png);
+}
+.slide:nth-of-type(2){
+    background:url(../img/photo_glushak/glushak2.png);
+}
+.slide:nth-of-type(3){
+    background: url(../img/photo_glushak/glushak3.png);
+}
+.slide:nth-of-type(4){
+    background: url(../img/photo_glushak/glushak4.png);
+}
+*/
+/*слайдер*/
+
+.dvs{
+	position:absolute;
+	top:143px;
+	left:25%;
+}
+/*стили для пульсирующей кнопки сверху*/
+.pulse {	
+	
+  animation: pulse 6s infinite;
+}
+@keyframes pulse{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+ /* position: absolute;
+  top: 100%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  background: #4fbaea;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+.pulse:before,
+.pulse:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	border: 50%;
+	border: 1px solid #4fbaea;
+    left: -20px;
+	right: -20px;
+	top: -20px;
+	bottom: -20px;
+	border-radius: 50%;
+	animation: animate 1.5s linear infinite;
+	opacity: 0;
+	backface-visibility: hidden; 
+}
+
+.pulse:after{
+	animation-delay: .5s;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}*/
+                                 /*первый экран*/
+/*.fon1{
+ text-align: center;
+}	
+*/
+
+}	
+/*карусель*/
+/*.slider {
+	width: 1024px;
+	margin: 2em auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 683px;
+	position: relative; *//* Создаёт контекст для абсолютного позиционирования */
+/*}*/
+
+/*.slide {
+	position: absolute;*/ /* Абсолютное позиционирование всех слайдов */
+/*	width: 100%;
+	height: 100%;
+	opacity: 0; *//* Все слайды скрыты */
+	/*transition: opacity 500ms linear;
+}*/
+
+/* Изначально виден только первый */
+
+/*.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}*/
+
+/*кнопки*/
+/*.slider-nav {
+	height: 40px;
+	width: 100%;
+	margin-top: 1.5em;
+}
+
+.slider-nav button {
+	border: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	text-indent: -9999em;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.slider-nav button.slider-previous {
+	float: left;
+	background-image: url(previous.png);
+}
+
+.slider-nav button.slider-next {
+	float: right;
+	background-image: url(next.png);
+}
+
+*/
+/*конец карусель*/
